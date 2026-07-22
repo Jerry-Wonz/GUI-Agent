@@ -1,0 +1,1 @@
+"""GUIAgent minimal package."""

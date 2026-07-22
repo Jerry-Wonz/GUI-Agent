@@ -1,0 +1,8 @@
+{
+  "runner": {
+    "max_steps": 5
+  },
+  "logging": {
+    "output_dir": "outputs"
+  }
+}
