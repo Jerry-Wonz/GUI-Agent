@@ -83,7 +83,7 @@ class VisualGrounder(BaseGrounder):
                 },
             )
 
-        point = parsed.get("point")
+        point = parsed.get("point") or parsed.get("center")
         bbox = parsed.get("bbox")
         confidence = parsed.get("confidence", 0.5)
 
